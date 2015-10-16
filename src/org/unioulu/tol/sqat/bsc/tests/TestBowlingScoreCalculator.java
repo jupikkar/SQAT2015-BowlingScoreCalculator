@@ -149,7 +149,7 @@ public class TestBowlingScoreCalculator {
 	public void testSampleGameWithSpareFirstThen5and2ShouldBe22(){
 		//arrange
 		BowlingGame game = new BowlingGame();
-		Frame strike = new Frame(4,6);
+		Frame spare = new Frame(4,6);
 		Frame frame = new Frame(5,2);
 		//act
 		game.addFrame(spare);

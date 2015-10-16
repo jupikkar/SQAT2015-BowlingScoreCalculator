@@ -105,4 +105,10 @@ public class TestBowlingScoreCalculator {
 		// All of the above refactored into @Before to save space
 		assertEquals(10, game.numberOfFrames());
 	}
+	
+	@Test
+	public void testCalculatingGameScoreWithPrebuiltGameShouldBe81(){
+		//assert
+		assertEquals(81, game.score());
+	}
 }

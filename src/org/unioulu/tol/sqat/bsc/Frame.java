@@ -16,8 +16,10 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		if (firstThrow == 10)
+			return true;
+		else
+			return false;
 	}
 	
 	//return whether a frame is a spare or not

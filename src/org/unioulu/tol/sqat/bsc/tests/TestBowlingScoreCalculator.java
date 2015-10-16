@@ -34,16 +34,6 @@ public class TestBowlingScoreCalculator {
 		Frame frame8 = new Frame(4,5);
 		Frame frame9 = new Frame(8,1);
 		Frame frame10 = new Frame(2,6);
-		game.addFrame(frame1);
-		game.addFrame(frame2);
-		game.addFrame(frame3);
-		game.addFrame(frame4);
-		game.addFrame(frame5);
-		game.addFrame(frame6);
-		game.addFrame(frame7);
-		game.addFrame(frame8);
-		game.addFrame(frame9);
-		game.addFrame(frame10);
 	}
 	
 
@@ -90,19 +80,20 @@ public class TestBowlingScoreCalculator {
 //		Frame frame8 = new Frame(4,5);
 //		Frame frame9 = new Frame(8,1);
 //		Frame frame10 = new Frame(2,6);
-//		//act
-//		game.addFrame(frame1);
-//		game.addFrame(frame2);
-//		game.addFrame(frame3);
-//		game.addFrame(frame4);
-//		game.addFrame(frame5);
-//		game.addFrame(frame6);
-//		game.addFrame(frame7);
-//		game.addFrame(frame8);
-//		game.addFrame(frame9);
-//		game.addFrame(frame10);
-		//assert
 		// All of the above refactored into @Before to save space
+//		//act
+		game.addFrame(frame1);
+		game.addFrame(frame2);
+		game.addFrame(frame3);
+		game.addFrame(frame4);
+		game.addFrame(frame5);
+		game.addFrame(frame6);
+		game.addFrame(frame7);
+		game.addFrame(frame8);
+		game.addFrame(frame9);
+		game.addFrame(frame10);
+		//assert
+		
 		assertEquals(10, game.numberOfFrames());
 	}
 	

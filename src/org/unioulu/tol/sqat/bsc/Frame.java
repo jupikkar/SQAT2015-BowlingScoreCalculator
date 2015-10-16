@@ -47,7 +47,7 @@ public class Frame {
 		return secondThrow;
 	}
 
-	public Object getTotalScore() {
+	public int getTotalScore() {
 		return 8;
 	}
 

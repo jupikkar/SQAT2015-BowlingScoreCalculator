@@ -216,5 +216,20 @@ public class TestBowlingScoreCalculator {
 		assertEquals(103, game.score());	
 	}
 	
+	@Test
+	public void testSampleGameWithStrikeSpare3and3ShouldBe39(){
+		//arrange
+		BowlingGame game = new BowlingGame();
+		Frame strike = new Frame(10,0);
+		Frame spare = new Frame(4,6);
+		Frame frame = new Frame(3,3);
+		//act
+		game.addFrame(strike);
+		game.addFrame(spare);
+		game.addFrame(frame);
+		//assert
+		assertEquals(39, game.score());
+	}
+	
 	
 }

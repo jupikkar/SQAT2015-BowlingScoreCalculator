@@ -12,9 +12,8 @@ public class TestBowlingScoreCalculator {
 		//arrange
 		Frame frame = new Frame(1,1);
 		//act
-		String score = "1 and 1";
 		//assert
-		assertEquals(score, frame.getFirstThrow() + " and " + frame.getSecondThrow());
+		assertEquals("1,1", frame.getFirstThrow() + "," + frame.getSecondThrow());
 	}
 	
 	@Test

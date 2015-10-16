@@ -30,3 +30,8 @@ RefactoringAction 1444984911565 TestBowlingScoreCalculator.java RENAME testCount
 RefactoringAction 1444984952741 Frame.java ADD Object getTotalScore() METHOD
 EditAction 1444984957738 Frame.java 1011 9 10 0
 EditAction 1444984957968 TestBowlingScoreCalculator.java 648 2 5 2
+UnitTestCaseAction 1444984959281 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444984959282 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444984976627 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444984976627 TestBowlingScoreCalculator OK
+EditAction 1444985012389 TestBowlingScoreCalculator.java 615 2 4 2

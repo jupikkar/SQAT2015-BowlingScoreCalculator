@@ -122,6 +122,6 @@ public class TestBowlingScoreCalculator {
 		game1.addFrame(firstFrame);
 		game1.addFrame(secondFrame);
 		//assert
-		assertEquals(12, game.score());
+		assertEquals(12, game1.score());
 	}
 }

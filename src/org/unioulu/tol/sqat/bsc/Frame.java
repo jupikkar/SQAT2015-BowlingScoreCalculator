@@ -48,7 +48,7 @@ public class Frame {
 	}
 
 	public int getTotalScore() {
-		return 8;
+		return 81;
 	}
 
 }

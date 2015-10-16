@@ -70,3 +70,7 @@ RefactoringAction 1444985686971 BowlingGame.java REMOVE numberOfFrames() METHOD
 RefactoringAction 1444985692998 BowlingGame.java ADD Object numberOfFrames() METHOD
 EditAction 1444985714583 TestBowlingScoreCalculator.java 1717 4 8 3
 EditAction 1444985714746 BowlingGame.java 615 6 3 0
+CompilationAction 1444985714900 BowlingGame.java
+CompilationAction 1444985714900 TestBowlingScoreCalculator.java
+CompilationAction 1444985714900 TestBowlingScoreCalculator.java
+EditAction 1444985730742 TestBowlingScoreCalculator.java 1733 4 30 4

@@ -63,7 +63,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame9);
 		game.addFrame(frame10);
 		//assert
-		assertEquals(10, game.);
+		assertEquals(10, game.numberOfFrames());
 		
 	}
 

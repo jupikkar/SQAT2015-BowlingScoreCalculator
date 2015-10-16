@@ -28,6 +28,6 @@ public class BowlingGame {
 	}
 
 	public int numberOfFrames() {
-		return null;
+		return this.frames.size();
 	}
 }

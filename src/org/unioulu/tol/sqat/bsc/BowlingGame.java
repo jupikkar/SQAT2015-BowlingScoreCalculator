@@ -26,7 +26,7 @@ public class BowlingGame {
 		for (Frame frame : frames){
 			
 			if (frame.isStrike() && wasStrike)
-				gameScore += 2 * frame.score() + frame.getFirstThrow();
+				gameScore += frame.score();
 			else if (wasStrike)
 				gameScore += 2 * frame.score();
 			else if (wasSpare)
@@ -34,15 +34,11 @@ public class BowlingGame {
 			else
 				gameScore += frame.score();
 			
-			previousWasStrike = false;
+			
 			wasStrike = false;
 			wasSpare = false;
 			
-			if (frame.isStrike() && wasStrike == true){
-				previousWasStrike = true;
-				wasStrike = true;
-			}
-			else if (frame.isStrike())
+			if (frame.isStrike())
 				wasStrike = true;
 			if (frame.isSpare())
 				wasSpare = true;

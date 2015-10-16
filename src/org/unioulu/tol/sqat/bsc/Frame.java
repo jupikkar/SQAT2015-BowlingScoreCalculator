@@ -24,10 +24,8 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		if (!isStrike() && firstThrow+secondThrow==10)
+		if (!isStrike() && firstThrow + secondThrow==10)
 			return true;
-		else if (isStrike())
-			return false;
 		else
 			return false;
 	}

@@ -99,6 +99,17 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testCalculatingGameScoreWithPrebuiltGameShouldBe81(){
+		//act
+		game.addFrame(frame1);
+		game.addFrame(frame2);
+		game.addFrame(frame3);
+		game.addFrame(frame4);
+		game.addFrame(frame5);
+		game.addFrame(frame6);
+		game.addFrame(frame7);
+		game.addFrame(frame8);
+		game.addFrame(frame9);
+		game.addFrame(frame10);
 		//assert
 		assertEquals(81, game.score());
 	}

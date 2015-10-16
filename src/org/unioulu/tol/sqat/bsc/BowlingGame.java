@@ -30,6 +30,8 @@ public class BowlingGame {
 			else
 				gameScore += frame.score();
 			
+			isStrike = false;
+			
 			if (frame.isStrike())
 				isStrike = true;
 		}

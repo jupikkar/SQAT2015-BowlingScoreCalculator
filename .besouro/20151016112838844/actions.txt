@@ -81,3 +81,22 @@ EditAction 1444985797134 BowlingGame.java 629 6 3 0
 UnitTestCaseAction 1444985798353 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444985798353 TestBowlingScoreCalculator FAIL
 EditAction 1444985854854 BowlingGame.java 633 6 4 0
+UnitTestCaseAction 1444985856120 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444985856121 TestBowlingScoreCalculator OK
+RefactoringAction 1444985918776 TestBowlingScoreCalculator.java ADD BowlingGame game FIELD
+RefactoringAction 1444985927299 TestBowlingScoreCalculator.java ADD Frame frame1 FIELD
+RefactoringAction 1444985927300 TestBowlingScoreCalculator.java ADD Frame frame2 FIELD
+RefactoringAction 1444985927300 TestBowlingScoreCalculator.java ADD Frame frame3 FIELD
+RefactoringAction 1444985927301 TestBowlingScoreCalculator.java ADD Frame frame4 FIELD
+RefactoringAction 1444985927301 TestBowlingScoreCalculator.java ADD Frame frame5 FIELD
+RefactoringAction 1444985927302 TestBowlingScoreCalculator.java ADD Frame frame6 FIELD
+RefactoringAction 1444985927302 TestBowlingScoreCalculator.java ADD Frame frame7 FIELD
+RefactoringAction 1444985927303 TestBowlingScoreCalculator.java ADD Frame frame8 FIELD
+RefactoringAction 1444985927303 TestBowlingScoreCalculator.java ADD Frame frame9 FIELD
+RefactoringAction 1444985927304 TestBowlingScoreCalculator.java ADD Frame frame10 FIELD
+RefactoringAction 1444985970739 TestBowlingScoreCalculator.java ADD void GameSetup FIELD
+RefactoringAction 1444985976306 TestBowlingScoreCalculator.java RENAME GameSetup()=>void ameSetup() METHOD
+RefactoringAction 1444985977327 TestBowlingScoreCalculator.java RENAME ameSetup()=>void gameSetup() METHOD
+RefactoringAction 1444985981349 TestBowlingScoreCalculator.java RENAME gameSetup()=>void setupGame() METHOD
+RefactoringAction 1444985991355 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
+EditAction 1444986087732 TestBowlingScoreCalculator.java 2666 5 30 4

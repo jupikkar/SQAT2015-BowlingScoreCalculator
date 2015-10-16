@@ -340,3 +340,7 @@
 1444987234657 test-first 3 649 true
 1444987234658 test-first 3 649 true
 1444987234659 test-first 3 649 true
+1444987643531 refactoring 3 332 true
+1444987643532 refactoring 3 332 true
+1444987643533 refactoring 3 332 true
+1444987643534 refactoring 3 332 true

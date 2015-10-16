@@ -282,3 +282,11 @@ EditAction 1444989386812 BowlingGame.java 1102 6 8 0
 UnitTestCaseAction 1444989387912 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444989387912 TestBowlingScoreCalculator FAIL
 EditAction 1444989408549 BowlingGame.java 1096 6 8 0
+UnitTestCaseAction 1444989409607 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989409608 TestBowlingScoreCalculator OK
+RefactoringAction 1444989423990 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444989433002 TestBowlingScoreCalculator.java RENAME test=>void test10FrameGameWith FIELD
+RefactoringAction 1444989440013 TestBowlingScoreCalculator.java RENAME test10FrameGameWith=>void test10FrameGameWithSpareFirstShouldBe FIELD
+RefactoringAction 1444989444025 TestBowlingScoreCalculator.java RENAME test10FrameGameWithSpareFirstShouldBe=>void test10FrameGameWithSpareFirstShouldBe88 FIELD
+RefactoringAction 1444989446036 TestBowlingScoreCalculator.java RENAME test10FrameGameWithSpareFirstShouldBe88=>void test10FrameGameWithSpareFirstShouldBe88() METHOD
+EditAction 1444989507326 TestBowlingScoreCalculator.java 4835 9 108 9

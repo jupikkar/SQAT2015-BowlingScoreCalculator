@@ -157,4 +157,33 @@ public class TestBowlingScoreCalculator {
 		//assert
 		assertEquals(22, game.score());
 	}
+	
+	@Test
+	public void test10FrameGameWithSpareFirstShouldBe88(){
+		//arrange
+		BowlingGame game = new BowlingGame();
+		Frame spare = new Frame(1,9);
+		Frame frame2 = new Frame(3,6);
+		Frame frame3 = new Frame(7,2);
+		Frame frame4 = new Frame(3,6);
+		Frame frame5 = new Frame(4,4);
+		Frame frame6 = new Frame(5,3);
+		Frame frame7 = new Frame(3,3);
+		Frame frame8 = new Frame(4,5);
+		Frame frame9 = new Frame(8,1);
+		Frame frame10 = new Frame(2,6);
+		//act
+		game.addFrame(spare);
+		game.addFrame(frame2);
+		game.addFrame(frame3);
+		game.addFrame(frame4);
+		game.addFrame(frame5);
+		game.addFrame(frame6);
+		game.addFrame(frame7);
+		game.addFrame(frame8);
+		game.addFrame(frame9);
+		game.addFrame(frame10);
+		//assert
+		assertEquals(88, game.score());
+	}
 }

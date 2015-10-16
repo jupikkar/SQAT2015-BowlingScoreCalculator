@@ -120,7 +120,7 @@ public class TestBowlingScoreCalculator {
 	public void testSampleBowlingGameScoreIfFirstIsStrikeShouldBe94(){
 		//arrange
 		BowlingGame game = new BowlingGame();
-		Frame frame1 = new Frame(10,0);
+		Frame strike = new Frame(10,0);
 		Frame frame2 = new Frame(3,6);
 		Frame frame3 = new Frame(7,2);
 		Frame frame4 = new Frame(3,6);
@@ -131,7 +131,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame9 = new Frame(8,1);
 		Frame frame10 = new Frame(2,6);
 		//act
-		game.addFrame(frame1);
+		game.addFrame(strike);
 		game.addFrame(frame2);
 		game.addFrame(frame3);
 		game.addFrame(frame4);
@@ -152,7 +152,7 @@ public class TestBowlingScoreCalculator {
 		Frame strike = new Frame(4,6);
 		Frame frame = new Frame(5,2);
 		//act
-		game.addFrame(strike);
+		game.addFrame(spare);
 		game.addFrame(frame);
 		//assert
 		assertEquals(22, game.score());

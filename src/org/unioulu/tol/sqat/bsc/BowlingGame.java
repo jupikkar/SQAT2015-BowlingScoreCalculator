@@ -34,7 +34,8 @@ public class BowlingGame {
 			else
 				gameScore += frame.score();
 			
-			wasStrike = false;
+			if(!frame.isStrike())
+				wasStrike = false;
 			wasSpare = false;
 			
 			if (frame.isStrike())

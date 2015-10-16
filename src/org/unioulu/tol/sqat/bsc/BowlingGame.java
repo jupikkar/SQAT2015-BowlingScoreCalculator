@@ -20,25 +20,25 @@ public class BowlingGame {
 	
 	public int score(){
 		int gameScore = 0;
-		boolean isStrike = false;
-		boolean isSpare = false;
+		boolean wasStrike = false;
+		boolean wasSpare = false;
 		
 		for (Frame frame : frames){
 			
-			if (isSpare)
+			if (wasSpare)
 				gameScore += frame.score() + frame.getFirstThrow();
-			if (isStrike)
+			if (wasStrike)
 				gameScore += 2 * frame.score();
 			else
 				gameScore += frame.score();
 			
-			isStrike = false;
-			isSpare = false;
+			wasStrike = false;
+			wasSpare = false;
 			
 			if (frame.isStrike())
-				isStrike = true;
+				wasStrike = true;
 			if (frame.isSpare())
-				isStrike = true;
+				wasStrike = true;
 		}
 		return gameScore;
 	}

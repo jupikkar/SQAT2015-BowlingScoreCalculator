@@ -28,7 +28,7 @@ public class BowlingGame {
 			if (wasStrike)
 				gameScore += 2 * frame.score();
 			else if (wasSpare){
-				gameScore += frame.getFirstThrow();
+//				gameScore += frame.getFirstThrow();
 				gameScore += frame.score();
 			}
 			else

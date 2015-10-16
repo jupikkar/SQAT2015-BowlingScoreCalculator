@@ -48,7 +48,7 @@ public class Frame {
 	}
 
 	public int getTotalScore() {
-		return 81;
+		return this.firstThrow+this.secondThrow;
 	}
 
 }

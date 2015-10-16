@@ -231,5 +231,20 @@ public class TestBowlingScoreCalculator {
 		assertEquals(39, game.score());
 	}
 	
+	@Test
+	public void testSampleGameWithTwoStrikesFirstThen7and2ShouldBe55(){
+		//arrange
+		BowlingGame game = new BowlingGame();
+		Frame strike = new Frame(10,0);
+		Frame frame = new Frame(7,2);
+		//act
+		game.addFrame(strike);
+		game.addFrame(strike);
+		game.addFrame(frame);
+		//assert
+		assertEquals(55, game.score());
+		
+		
+	}
 	
 }

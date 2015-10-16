@@ -16,5 +16,14 @@ public class TestBowlingScoreCalculator {
 		//assert
 		assertEquals(score, frame.getFirstThrow() + " and " + frame.getSecondThrow());
 	}
+	
+	@Test
+	public void testCountingSingleFrameScoreWith2and6PinsKnockedDownIs8() {
+		//arrange
+		Frame frame = new Frame(2,6);
+		//act
+		//assert
+		assertEquals(8, frame.getTotalScore());
+	}
 
 }

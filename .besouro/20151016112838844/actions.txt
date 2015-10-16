@@ -1,0 +1,10 @@
+FileOpenedAction 1444984119414 Frame.java 794 6 7 0
+RefactoringAction 1444984464747 TestBowlingScoreCalculator.java RENAME test()=>void testCreatingNewFrame() METHOD
+RefactoringAction 1444984499183 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444984523435 TestBowlingScoreCalculator.java RENAME testCreatingNewFrame()=>void testCreatingNewFrameWith() METHOD
+RefactoringAction 1444984531952 TestBowlingScoreCalculator.java RENAME testCreatingNewFrameWith()=>void testCreatingNewFrameWith1and1PinsKnockedDown() METHOD
+RefactoringAction 1444984691907 Frame.java ADD int getFirstThrow() METHOD
+RefactoringAction 1444984691908 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1444984723442 Frame.java REMOVE getSecondThrow() METHOD
+RefactoringAction 1444984723443 Frame.java REMOVE getFirstThrow() METHOD
+EditAction 1444984731632 Frame.java 796 6 7 0

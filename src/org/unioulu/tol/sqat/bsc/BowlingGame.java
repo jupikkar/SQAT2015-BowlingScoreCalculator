@@ -21,17 +21,23 @@ public class BowlingGame {
 	public int score(){
 		int gameScore = 0;
 		boolean isStrike = false;
+		boolean isSpare = false;
 		
 		for (Frame frame : frames){
 			
+			if (isSpare)
+				gameScore += frame.score() + frame.getFirstThrow();
 			if (isStrike)
 				gameScore += 2 * frame.score();
 			else
 				gameScore += frame.score();
 			
 			isStrike = false;
+			isSpare = false;
 			
 			if (frame.isStrike())
+				isStrike = true;
+			if (frame.isSpare())
 				isStrike = true;
 		}
 		return gameScore;

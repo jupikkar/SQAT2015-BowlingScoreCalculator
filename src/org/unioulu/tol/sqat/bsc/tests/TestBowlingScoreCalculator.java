@@ -62,7 +62,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame(2,6);
 		//act
 		//assert
-		assertEquals(8, frame.getTotalScore());
+		assertEquals(8, frame.score());
 	}
 	
 	@Test
@@ -110,5 +110,18 @@ public class TestBowlingScoreCalculator {
 	public void testCalculatingGameScoreWithPrebuiltGameShouldBe81(){
 		//assert
 		assertEquals(81, game.score());
+	}
+	
+	@Test
+	public void testNewBowlingGameWithTwoFramesOneStrikeand1and1ShouldBe14(){
+		//arrange
+		BowlingGame game1 = new BowlingGame();
+		Frame firstFrame = new Frame(10,0);
+		Frame secondFrame = new Frame(1,1);
+		//act
+		game1.addFrame(firstFrame);
+		game1.addFrame(secondFrame);
+		//assert
+		assertEquals(12, game.score());
 	}
 }

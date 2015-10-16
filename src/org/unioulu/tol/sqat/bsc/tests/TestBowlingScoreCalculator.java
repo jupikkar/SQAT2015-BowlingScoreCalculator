@@ -144,4 +144,17 @@ public class TestBowlingScoreCalculator {
 		//assert
 		assertEquals(94, game.score());
 	}
+	
+	@Test
+	public void testSampleGameWithSpareFirstThen5and2ShouldBe22(){
+		//arrange
+		BowlingGame game = new BowlingGame();
+		Frame strike = new Frame(4,6);
+		Frame frame = new Frame(5,2);
+		//act
+		game.addFrame(strike);
+		game.addFrame(frame);
+		//assert
+		assertEquals(22, game.score());
+	}
 }

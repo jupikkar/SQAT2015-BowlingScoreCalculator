@@ -26,4 +26,8 @@ public class BowlingGame {
 		//to be implemented
 		return false;
 	}
+
+	public int numberOfFrames() {
+		return null;
+	}
 }

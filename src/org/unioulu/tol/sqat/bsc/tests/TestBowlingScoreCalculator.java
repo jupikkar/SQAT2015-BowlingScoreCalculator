@@ -102,7 +102,7 @@ public class TestBowlingScoreCalculator {
 //		game.addFrame(frame9);
 //		game.addFrame(frame10);
 		//assert
-		// All of the above refactored into @Before
+		// All of the above refactored into @Before to save space
 		assertEquals(10, game.numberOfFrames());
 	}
 	

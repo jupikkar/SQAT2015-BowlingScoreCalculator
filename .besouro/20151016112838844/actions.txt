@@ -100,3 +100,6 @@ RefactoringAction 1444985977327 TestBowlingScoreCalculator.java RENAME ameSetup(
 RefactoringAction 1444985981349 TestBowlingScoreCalculator.java RENAME gameSetup()=>void setupGame() METHOD
 RefactoringAction 1444985991355 TestBowlingScoreCalculator.java ADD import org.junit.Before IMPORT
 EditAction 1444986087732 TestBowlingScoreCalculator.java 2666 5 30 4
+UnitTestCaseAction 1444986088909 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986088910 TestBowlingScoreCalculator OK
+EditAction 1444986116856 TestBowlingScoreCalculator.java 2719 5 30 4

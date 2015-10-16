@@ -47,4 +47,9 @@ public class Frame {
 		return secondThrow;
 	}
 
+	public Object getTotalScore() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
